@@ -115,58 +115,36 @@ nav a {
   color: white;
   padding: .5rem;
   text-align: center;
-}
-
-#pen {
-
-}
-
-#pen img {
-
-}
-
-#watch {
-
-}
-
-#watch img {
-
-}
-
-#glasses {
-
-}
-
-#glasses img {
-
+  border-bottom: 4px solid black;
 }
 
 /* Store Info Section */
 
 .store-info {
-
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4rem;
 }
 
-.location {
-
-}
-
-.hours{
-
+.info-box {
+  width: 35%
 }
 
 .title {
-
+  display: block;
+  background-color: black;
+  color: white;
+  padding: 1rem 2rem;
+  margin-bottom: 0.25rem;
 }
 
-.detail {
-
-}
 
 /* Footer */
 
 footer {
-
+  background-color: black;
+  color: white;
+  padding: 2.5rem 0;
 }
 
 /* Media Queries */
