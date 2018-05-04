@@ -6,24 +6,27 @@ html {
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   background-color: black;
   color: white;
   font-family: helvetica, sans-serif;
-  width: 960px;
-  margin: auto;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 /* Header */
 
 header {
-  display: inline-flex;
-  align-items: center;
   text-transform: uppercase;
   padding: 0.66rem 0;
 
+}
+
+header .container {
+  display: flex;
+  align-items: center;
 }
 
 header img {
@@ -33,8 +36,8 @@ header img {
 
 }
 
-h1 {
-
+header h1 {
+  display: inline-block;
 }
 
 /* Main Feature Section */
@@ -42,30 +45,43 @@ h1 {
 .main-feature {
   background-image: url("../../resources/images/moto.jpeg");
   height: 25rem;
-  width: 100%;
   margin: 0;
   background-size: cover;
   background-position: center;
-
 }
 
-.category h2 {
+.feat-title {
+  position: relative;
+  top: 9em;
+  width: 20rem;
+  padding: 2rem 3rem;
+  background-color: black;
   font-weight: bold;
   text-transform: uppercase;
-
 }
 
-.headline h2 {
-
+h2.headline {
+  font-size: 2rem;
+  margin-top: 0.25rem;
 }
 
 /* Navigation */
 
 nav {
+  background-color: firebrick;
+  padding: 0.75rem 0;
+}
+
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
 }
 
 nav a {
+  color: white;
+  text-decoration: none;
 
 }
 
