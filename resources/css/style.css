@@ -1,0 +1,87 @@
+/* Page-Wide Rules */
+
+body {
+    font-family: helvetica;
+    background-color: white;
+    color: black;
+}
+
+.header-content,
+.feature-header,
+.nav-content,
+.tile-section,
+.footer-content {
+    width: 960px;
+    margin: 0 auto;
+}
+
+
+
+
+/* Header Section */
+
+header {
+
+}
+
+.header-content {
+
+}
+
+/* Featured Story Section */
+
+.feature-story {
+
+}
+
+.feature-header {
+
+}
+
+.feature-cat {
+
+}
+
+/* Navigation */
+
+nav {
+
+}
+
+.nav-content {
+
+}
+
+.nav-item {
+
+}
+
+/* Featured Products Section */
+
+.tile-section {
+
+}
+
+.prod-tile {
+
+}
+
+.black-box-header {
+
+}
+
+/* Store Info Section */
+
+.info-tile {
+
+}
+
+/* Footer */
+
+footer {
+
+}
+
+.footer-content {
+
+}
